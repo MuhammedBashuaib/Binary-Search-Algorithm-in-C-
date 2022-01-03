@@ -29,10 +29,6 @@ int main()
 {
     int array[] = {50, 52, 60, 63, 70, 77, 80, 100, 200, 450};
     int searchNumber;
-    int low = 0;
-    int high = 10 -1;
-    int mid = ((10 - low) / 2) + low;
-    bool contin = true;
     cout<<"the list number is: "<<endl;
     for(int i=0; i<10; i++)
     {
